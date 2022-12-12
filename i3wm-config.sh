@@ -64,10 +64,6 @@ i3(){
 	git clone https://github.com/gr1m2/i3.git
 
 	cd i3
-	
-    rm -r $HOME/$USER/.config/alacritty/alacritty.yml
-
-    mv alacritty-conf.yml $HOME/$USER/.config/alacritty/
 
 	mkdir $HOME/$USER/.config/i3blocks
 
